@@ -13,6 +13,7 @@ class Edge:
         self.order = ""
         self.direction = ""
         self.status = "on"
+        self.matched = False
 
     def __str__(self):
         return "(" + str(self.left) + ", " + str(self.right) + ") " + self.status
